@@ -32,7 +32,4 @@ deploy:
     region: $DEFAULT_REGION
     on:
       branch: masterbefore_deploy:
-  - zip -r latest.zip *
-  - test -d deploy || mkdir deploy
-  - mv latest.zip deploy/latest.zip
 
