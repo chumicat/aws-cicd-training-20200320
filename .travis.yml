@@ -5,7 +5,7 @@ php:
 script: echo "Test OK"
 
 notifications:
-  email: fals
+  email: false
 
 before_deploy:
   - zip -r latest.zip *
