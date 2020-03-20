@@ -31,5 +31,5 @@ deploy:
     deployment_group: master
     region: $DEFAULT_REGION
     on:
-      branch: masterbefore_deploy:
+      branch: master
 
