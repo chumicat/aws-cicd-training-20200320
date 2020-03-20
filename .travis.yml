@@ -1,7 +1,7 @@
 language: php
 php:
   - '7.0'
-script echo "Test OK";
+script: echo "Test OK"
 
-notifications
-  email false
+notifications:
+  email: false
